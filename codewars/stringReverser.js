@@ -1,10 +1,10 @@
 function stringReverser(string) {
-    let outputString = ''
-    
+    let reversedString = ''
+
     for (let i = string.length - 1; i >= 0; i--){
-        outputString += string[i]
+        reversedString += string[i]
     }
-    return outputString
+    return reversedString
 }
 
 module.exports = stringReverser
