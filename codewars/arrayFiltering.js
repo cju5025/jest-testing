@@ -7,6 +7,4 @@ function arrayFiltering (array) {
     }
     return array
 }
-
-console.log(arrayFiltering([1,"a",2,"b"]))
 module.exports = arrayFiltering
